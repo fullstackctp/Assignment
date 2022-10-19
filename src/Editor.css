@@ -1,0 +1,54 @@
+.editor {
+    display: flex;
+}
+
+.wrapper {
+    top: 80px;
+    width: 700px;
+    height: 400px;
+    overflow: auto;
+    margin-bottom: 1rem;
+}
+
+.content {
+    position: relative;
+}
+
+.canvas {
+    position: absolute;
+}
+
+.canvas:hover {
+    cursor: default;
+}
+
+.picture {
+    position: absolute;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.button {
+    padding: 10px;
+    margin: 4px;
+    border: 1px solid black;
+    float: left;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+#file-upload {
+    display: none;
+}
+.add-mode {
+    cursor: copy !important;
+}
